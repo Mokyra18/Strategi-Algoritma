@@ -1,3 +1,5 @@
+## Kode program ruby untuk menghitung rata-rata dari beberapa bilangan kemudian lakukan pengukuran dengan menghitung waktu yang dilakukan untuk melakukan perhitungan rata-rata tersebut. Waktu yang disarankan menggunakan satuan mikrosecond atau milisecond. 
+
 ```ruby
 require 'benchmark'
 # Fungsi untuk menghitung rata-rata dari beberapa bilangan
