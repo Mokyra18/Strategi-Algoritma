@@ -1,5 +1,5 @@
+```ruby
 require 'benchmark'
-
 # Fungsi untuk menghitung rata-rata dari beberapa bilangan
 def hitung_rata_rata(bilangan)
   total = bilangan.reduce(:+)
@@ -25,3 +25,4 @@ waktu = Benchmark.measure do
 end
 
 puts "Waktu yang dibutuhkan: #{(waktu.real * 1000).round(2)} milisecond"
+```
